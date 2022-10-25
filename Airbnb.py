@@ -48,7 +48,7 @@ warnings.filterwarnings('ignore')
 ## Import Data ##
 #################
 global df
-df = pd.read_csv(r'C:\Users\white\Desktop\Airbnb\Airbnb_Open_Data.csv', low_memory=False)  
+df = pd.read_csv(r'./Airbnb_Open_Data.csv', low_memory=False)  
 
 
 #######################
@@ -175,7 +175,7 @@ def heatMapPage():
         st.markdown("# DataFrame is empty! Modify the filters to show data.")
     else: 
         # Import .shp file of Borough NY
-        street_map = gpd.read_file(r'C:\Users\white\Desktop\Airbnb\Map\geo_export_336838c1-1789-4dd5-84ec-a3625918536c.shp')
+        street_map = gpd.read_file(r'./Map/geo_export_336838c1-1789-4dd5-84ec-a3625918536c.shp')
         # Designate coordinate system
         crs = {'init':'epsg:4326'}
         # Zip x and y coordinates into single feature
