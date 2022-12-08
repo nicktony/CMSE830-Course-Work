@@ -56,14 +56,14 @@ st.sidebar.title("Hapiness Datasets")
 ## Import Data ##
 #################
 global df15, df16, df17, df18, df19, df20, df21, df22
-df15 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2015.csv')
-df16 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2016.csv')
-df17 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2017.csv')
-df18 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2018.csv')
-df19 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2019.csv')
-df20 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2020.csv')
-df21 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2021.csv')
-df22 = pd.read_csv(r'C:\Users\white\Desktop\CMSE830\Final\Data\2022.csv')
+df15 = pd.read_csv(r'./Data/2015.csv')
+df16 = pd.read_csv(r'./Data/2016.csv')
+df17 = pd.read_csv(r'./Data/2017.csv')
+df18 = pd.read_csv(r'./Data/2018.csv')
+df19 = pd.read_csv(r'./Data/2019.csv')
+df20 = pd.read_csv(r'./Data/2020.csv')
+df21 = pd.read_csv(r'./Data/2021.csv')
+df22 = pd.read_csv(r'./Data/2022.csv')
 
 
 #######################
