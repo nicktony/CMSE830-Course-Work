@@ -55,14 +55,14 @@ st.sidebar.title("Hapiness Datasets")
 ## Import Data ##
 #################
 global df15, df16, df17, df18, df19, df20, df21, df22
-df15 = pd.read_csv('Data/2015.csv')
-df16 = pd.read_csv('Data/2016.csv')
-df17 = pd.read_csv('Data/2017.csv')
-df18 = pd.read_csv('Data/2018.csv')
-df19 = pd.read_csv('Data/2019.csv')
-df20 = pd.read_csv('Data/2020.csv')
-df21 = pd.read_csv('Data/2021.csv')
-df22 = pd.read_csv('Data/2022.csv')
+df15 = pd.read_csv('2015.csv')
+df16 = pd.read_csv('2016.csv')
+df17 = pd.read_csv('2017.csv')
+df18 = pd.read_csv('2018.csv')
+df19 = pd.read_csv('2019.csv')
+df20 = pd.read_csv('2020.csv')
+df21 = pd.read_csv('2021.csv')
+df22 = pd.read_csv('2022.csv')
 
 
 #######################
