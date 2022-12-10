@@ -48,7 +48,7 @@ warnings.filterwarnings('ignore')
 # Collapse on start
 st.set_page_config(initial_sidebar_state="collapsed")
 # Add title
-st.sidebar.title("Hapiness Datasets")
+st.sidebar.title("Happiness Datasets")
 
 
 #################
@@ -371,7 +371,7 @@ def classifierPage():
     st.write("Classifiers From Left to Right: ")
     st.write("- Nearest Neighbors (Red) - Linear SVM (Orange) - RBF SVM (Yellow)")
     st.write("- Gaussian Process (Blue) - Decision Tree (Cyan) - Random Forest (Green)")
-    st.write("- Neural Net (Pink) - Adaboost (Violet) - Naive Bayes (Purple")
+    st.write("- Neural Net (Pink) - Adaboost (Violet) - Naive Bayes (Purple)")
     
     # Loop through datasets
     for num1, df in enumerate(datasets):
